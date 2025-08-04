@@ -1,0 +1,73 @@
+[
+    {
+        "name": "C",
+        "icon": "assets/images/skills/c-programming.png"
+    },
+    {
+        "name": "C++",
+        "icon": "assets/images/skills/c-plus-plus-logo.png"
+    },
+  
+    {
+        "name": "HTML5",
+        "icon": "assets/images/skills/html-5--v1.png"
+    },
+    {
+        "name": "CSS",
+        "icon": "assets/images/skills/css3.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "assets/images/skills/javascript.png"
+    },
+    {
+        "name": "SQL",
+        "icon": "assets/images/skills/sql.png"
+    },
+    {
+        "name": "React",
+        "icon": "assets/images/skills/react-native.png"
+    },
+    {
+        "name": "Python",
+        "icon": "assets/images/skills/python--v1.png"
+    },
+        {
+        "name": "ML",
+        "icon": "assets/images/skills/brain.png"
+    },
+   
+
+    
+    {
+        "name": "Figma",
+        "icon": "assets/images/skills/figma--v1.png"
+    },
+    {
+        "name": "Tableau",
+        "icon": "assets/images/skills/tableau-software.png"
+    },
+    {
+        "name": "AWS",
+        "icon": "assets/images/skills/amazon-web-services.png"
+    },
+    {
+        "name": "Computer Networks",
+        "icon": "assets/images/skills/wifi.png"
+    },
+    {
+        "name": "Logisim",
+        "icon": "assets/images/skills/processor.png"
+    },
+    {
+        "name": "Packet Tracer",
+        "icon": "assets/images/skills/network.png"
+    },
+    
+    {
+        "name": "VS Code",
+        "icon": "assets/images/skills/visual-studio-code-2019.png"
+    }
+   
+    
+]
