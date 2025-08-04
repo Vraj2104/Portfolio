@@ -1,7 +1,7 @@
 [
   {
     "name": "Jobs4You",
-    "desc": "Designed and developed a job portal to bridge job seekers and recruiters via an intuitive UI.",
+    "desc": "",
     "image": "jobs4you",
     "category": "job-portal",
     "links": {
@@ -11,7 +11,7 @@
   },
   {
     "name": "Blood Management System",
-    "desc": "Developed a full-stack system to manage blood stock, donation records, donor scheduling, and patient requests.",
+    "desc": "",
     "image": "blood-management-system",
     "category": "mern",
     "links": {
@@ -21,12 +21,23 @@
   },
   {
     "name": "Coffee Shop E-commerce UI/UX",
-    "desc": "Created a high-fidelity prototype for a modern coffee shop e-commerce platform. Focused on clean aesthetics, responsive layout, and seamless user flow from product to checkout.",
+    "desc": "",
     "image": "coffee-shop-ecommerce-ui-ux",
     "category": "ui-ux",
     "links": {
       "view": "https://www.figma.com/proto/ugf20QrFX7UV0wMEvqtsTK/Coffee?node-id=1-3120&p=f&t=PE130RCYGmN1ypzV-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A1480&show-proto-sidebar=1",
       "code": "https://www.figma.com/proto/ugf20QrFX7UV0wMEvqtsTK/Coffee?node-id=1-3120&p=f&t=PE130RCYGmN1ypzV-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A1480&show-proto-sidebar=1"
+    }
+  },
+
+  {
+    "name": "Portfolio",
+    "desc": "",
+    "image": "portfolio",
+    "category": "frontend",
+    "links": {
+      "view": "https://vrajack.vercel.app/",
+      "code": "https://github.com/Vraj2104/portfolio"
     }
   }
 

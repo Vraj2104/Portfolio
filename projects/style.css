@@ -244,7 +244,7 @@ header .navbar ul li a:hover {
   box-shadow: 0 .7rem 1rem rgba(0, 0, 0, .3);
   position: relative;
   overflow: hidden;
-  height: 30rem;
+  height: 18rem;
   background: #fff;
   border: none;
 }
@@ -260,7 +260,7 @@ header .navbar ul li a:hover {
   height: 100%;
   width: 100%;
   position: absolute;
-  top: 85%;
+  top: 83%;
   left: 0;
   background: rgba(255, 255, 255, 0.9);
   display: flex;
@@ -272,7 +272,7 @@ header .navbar ul li a:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 4.5rem;
+  height: 3rem;
   width: 100%;
   padding-left: 1rem;
   background: #ffd900;

@@ -294,8 +294,8 @@ header .navbar ul li a:hover{
   transform: translateX(-8px);
 }
 
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
+/* Media queries - Responsive timeline on screens less than 900px wide */
+@media screen and (max-width: 900px) {
   .experience .timeline::after {
   left: 31px;
   }
