@@ -45,6 +45,12 @@ html::-webkit-scrollbar-thumb {
   background: #420177;
 }
 
+@media (max-width: 900px) {
+  html {
+    font-size: 58%;
+  }
+}
+
 /* pre loader start */
 .loader-container {
   position: fixed;
@@ -84,6 +90,12 @@ header {
 section {
   min-height: 100vh;
   padding: 2rem 9%;
+}
+
+@media (max-width: 900px) {
+  section {
+    padding: 2rem 3%;
+  }
 }
 
 .heading {
@@ -149,7 +161,7 @@ header .navbar ul li a:hover {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   #menu {
     display: block;
   }
@@ -213,6 +225,7 @@ header .navbar ul li a:hover {
   gap: 1.5rem;
   min-height: 100vh;
   align-items: center;
+  padding: 10rem;
 }
 
 .home #particles-js {
@@ -245,7 +258,7 @@ header .navbar ul li a:hover {
 
 .home .image img {
   width: 70%;
-  margin-left: 6rem;
+  margin-left: 5rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   /* cursor: pointer; */
@@ -362,6 +375,7 @@ header .navbar ul li a:hover {
   background-color: #007bb6;
 }
 
+
 /* .social-icons a.linkedin:hover {
   background-color: #007bb6;
 }
@@ -378,8 +392,10 @@ header .navbar ul li a:hover {
 
 /* hero media queries starts*/
 @media (max-width: 450px) {
+  
   .home .btn {
     margin: 4rem 0;
+    
   }
 
   .socials {
@@ -387,7 +403,7 @@ header .navbar ul li a:hover {
   }
 
   .home .image img {
-    margin-top: -12rem;
+    margin-top: 0rem;
   }
 
   .home .content p {
@@ -396,6 +412,20 @@ header .navbar ul li a:hover {
 
   .home .content p span {
     font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .home {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10rem;
+  }
+
+  .home .image img {
+    margin-left: 0;
+    width: 60%;
   }
 }
 
@@ -520,20 +550,22 @@ header .navbar ul li a:hover {
 }
 
 /* about media queries starts*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .about .row .image {
     margin-top: 2rem;
   }
 
   .about .row .image img {
-    margin: 0 auto;
-    width: 80%;
+    width: 60%;
+    margin: 2rem auto;
     mix-blend-mode: normal;
   }
 
   .about .row {
-    padding: 0.5rem;
+
     margin-bottom: 7rem;
+    flex-direction: column;
+    padding: 2rem 1rem;
   }
 
   .about .row .content {
@@ -613,14 +645,14 @@ header .navbar ul li a:hover {
 }
 
 /* skills media queries starts*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .skills .container {
     padding: 0;
     margin: 0;
   }
 
   .skills .container .row {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin: 1rem;
     padding: 2rem 0.2rem 2rem 0.2rem;
     gap: 1rem;
@@ -722,15 +754,15 @@ header .navbar ul li a:hover {
 }
 
 /* education media queries starts*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .education .box-container .box {
     flex-direction: column;
-    width: 100%;
+    width: 95%;
   }
 
   .education .box-container .box .image {
     width: 100%;
-    height: 25rem;
+    height: 18rem;
   }
 
   .education .box-container .box img {
@@ -898,6 +930,20 @@ header .navbar ul li a:hover {
   transform: translateX(5px);
 }
 
+
+@media (max-width: 900px) {
+  .work .box-container {
+    flex-direction: column;
+    gap: 2rem;
+    margin: 1rem;
+  }
+
+  .work .box-container .box {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
 /* work section ends */
 
 /* experience section starts */
@@ -1049,14 +1095,16 @@ header .navbar ul li a:hover {
   transform: translateX(5px);
 }
 
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
+/* Media queries - Responsive timeline on screens less than 900px wide */
+@media screen and (max-width: 900px) {
   .experience {
     min-height: 80vh;
   }
 
   .experience .timeline {
     margin-top: 2rem;
+    max-width: 98vw;
+    padding: 0 1rem;
   }
 
   .experience .timeline::after {
@@ -1065,12 +1113,13 @@ header .navbar ul li a:hover {
 
   .experience .container {
     width: 100%;
-    padding-left: 8rem;
-    padding-right: 2rem;
+    padding-left: 5rem;
+    padding-right: 1rem;
   }
 
   .experience .container::after {
     font-size: 2.2rem;
+
   }
 
   .experience .container::before {
@@ -1265,7 +1314,8 @@ form .button-area {
   }
 
   .contact .container {
-    margin: 3rem 0 2rem 0;
+    margin: 1rem 0;
+    padding: 0;
   }
 
   .contact .container .content {
@@ -1393,9 +1443,12 @@ form .button-area {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 900px) {
+
   .footer .box-container .box {
-    margin: 1.5rem;
+    margin: 1rem 0;
+    width: 90%;
+
   }
 
   .footer .box-container .box p {
@@ -1426,6 +1479,24 @@ form .button-area {
 
 /* common media queries ends*/
 
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 58%;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
+
 /* scroll top starts */
 #scroll-top {
   position: fixed;
@@ -1445,3 +1516,4 @@ form .button-area {
 }
 
 /* scroll top ends */
+
