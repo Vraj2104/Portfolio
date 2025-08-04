@@ -392,10 +392,10 @@ header .navbar ul li a:hover {
 
 /* hero media queries starts*/
 @media (max-width: 450px) {
-  
+
   .home .btn {
     margin: 4rem 0;
-    
+
   }
 
   .socials {
@@ -661,6 +661,12 @@ header .navbar ul li a:hover {
   .skills .container {
     margin-top: 5px;
     width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills .container .row {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -1516,4 +1522,3 @@ html {
 }
 
 /* scroll top ends */
-
